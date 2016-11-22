@@ -1,0 +1,273 @@
+﻿  LongRunningOperation.cpp
+  mutex.cpp
+  AboutDlg.cpp
+  ansiCharPanel.cpp
+  AutoCompletion.cpp
+  BabyGrid.cpp
+  BabyGridWrapper.cpp
+  Buffer.cpp
+  CharDistribution.cpp
+  clipboardHistoryPanel.cpp
+  ColourPicker.cpp
+  ColourPopup.cpp
+  columnEditor.cpp
+  Common.cpp
+  ContextMenu.cpp
+  ControlsTab.cpp
+  DockingCont.cpp
+  DockingManager.cpp
+  DockingSplitter.cpp
+  DocTabView.cpp
+  documentMap.cpp
+  EncodingMapper.cpp
+  FileDialog.cpp
+  FindCharsInRange.cpp
+  FindReplaceDlg.cpp
+  FunctionCallTip.cpp
+  functionListPanel.cpp
+  functionParser.cpp
+  GoToLineDlg.cpp
+  Gripper.cpp
+  IDAllocator.cpp
+  ImageListSet.cpp
+  JpCntx.cpp
+  LangBulgarianModel.cpp
+  LangCyrillicModel.cpp
+  LangGreekModel.cpp
+  LangHebrewModel.cpp
+  LangHungarianModel.cpp
+  LangThaiModel.cpp
+  lastRecentFileList.cpp
+  lesDlgs.cpp
+  ListView.cpp
+  localization.cpp
+  MiniDumper.cpp
+  Notepad_plus.cpp
+  Notepad_plus_Window.cpp
+  NppBigSwitch.cpp
+  NppCommands.cpp
+  NppIO.cpp
+  NppNotification.cpp
+  nsBig5Prober.cpp
+  nsCharSetProber.cpp
+  nsEscCharsetProber.cpp
+  nsEscSM.cpp
+  nsEUCJPProber.cpp
+  nsEUCKRProber.cpp
+  nsEUCTWProber.cpp
+  nsGB2312Prober.cpp
+  nsHebrewProber.cpp
+  nsLatin1Prober.cpp
+  nsMBCSGroupProber.cpp
+  nsMBCSSM.cpp
+  nsSBCharSetProber.cpp
+  nsSBCSGroupProber.cpp
+  nsSJISProber.cpp
+  nsUniversalDetector.cpp
+  nsUTF8Prober.cpp
+  Parameters.cpp
+  PluginsManager.cpp
+  preferenceDlg.cpp
+  Printer.cpp
+  Processus.cpp
+  ProjectPanel.cpp
+  regExtDlg.cpp
+  RunDlg.cpp
+  RunMacroDlg.cpp
+  ScintillaCtrls.cpp
+  ScintillaEditView.cpp
+  shortcut.cpp
+  ShortcutMapper.cpp
+  SizeableDlg.cpp
+  SmartHighlighter.cpp
+  Splitter.cpp
+  SplitterContainer.cpp
+  StaticDialog.cpp
+  StatusBar.cpp
+  TabBar.cpp
+  TaskList.cpp
+  TaskListDlg.cpp
+  tinystr.cpp
+  tinystrA.cpp
+  tinyxml.cpp
+  tinyxmlA.cpp
+  tinyxmlerror.cpp
+  tinyxmlerrorA.cpp
+  tinyxmlparser.cpp
+  tinyxmlparserA.cpp
+  ToolBar.cpp
+  ToolTip.cpp
+  trayIconControler.cpp
+  TreeView.cpp
+  uchardet.cpp
+  UniConversion.cpp
+  URLCtrl.cpp
+  UserDefineDialog.cpp
+  Utf8_16.cpp
+  VerticalFileSwitcher.cpp
+  VerticalFileSwitcherListView.cpp
+  Win32Exception.cpp
+  WindowsDlg.cpp
+  winmain.cpp
+  WinMgr.cpp
+  WinRect.cpp
+  WordStyleDlg.cpp
+  xmlMatchedTagsHighlighter.cpp
+  fileBrowser.cpp
+  ReadDirectoryChanges.cpp
+  ReadDirectoryChangesPrivate.cpp
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\comctl32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\shell32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\Oleacc.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\Dbghelp.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\kernel32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\user32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\gdi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\winspool.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\comdlg32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\advapi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\ole32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\oleaut32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\odbc32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\LIBCMT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\libcpmt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\atls.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\libvcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\libucrt.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\comctl32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\shell32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\Oleacc.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\Dbghelp.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\kernel32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\user32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\gdi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\winspool.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\comdlg32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\advapi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\ole32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\oleaut32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\odbc32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\LIBCMT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\libcpmt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\atls.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\libvcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\libucrt.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\comctl32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\shell32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\Oleacc.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\Dbghelp.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\kernel32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\user32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\gdi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\winspool.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\comdlg32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\advapi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\ole32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\oleaut32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\odbc32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\LIBCMT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\libcpmt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\atls.lib:
+  
+  Finished searching libraries
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\comctl32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\shell32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\Oleacc.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\Dbghelp.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\kernel32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\user32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\gdi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\winspool.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\comdlg32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\advapi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\ole32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\oleaut32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\odbc32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\LIBCMT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\libcpmt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\atls.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\libvcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\libucrt.lib:
+  
+  Finished searching libraries
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\comctl32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\shell32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\Oleacc.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\Dbghelp.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\kernel32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\user32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\gdi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\winspool.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\comdlg32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\advapi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\ole32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\oleaut32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\odbc32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\LIBCMT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\libcpmt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\atls.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\libvcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\libucrt.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\comctl32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\shell32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\Oleacc.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\Dbghelp.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\kernel32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\user32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\gdi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\winspool.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\comdlg32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\advapi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\ole32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\oleaut32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\odbc32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\odbccp32.lib:
+  
+  Finished searching libraries
+  notepadPlus.vs2015.vcxproj -> C:\Users\jacob\Desktop\notepad-plus-plus-master\notepad-plus-plus-master\PowerEditor\visual.net\..\bin\Notepad++.exe
+  notepadPlus.vs2015.vcxproj -> ..\bin\npp.pdb (Full PDB)
+  The system cannot find the file specified.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+  The system cannot find the path specified.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: The command "copy ..\src\config.model.xml ..\bin\config.model.xml
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: copy ..\src\langs.model.xml ..\bin\langs.model.xml
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: copy ..\src\stylers.model.xml ..\bin\stylers.model.xml
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: copy ..\src\shortcuts.xml ..\bin\shortcuts.xml
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: copy ..\src\functionList.xml ..\bin\functionList.xml
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: copy ..\src\contextMenu.xml ..\bin\contextMenu.xml
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: ..\misc\vistaIconTool\changeIcon.bat "..\misc\vistaIconTool\ChangeIcon.exe" "..\bin\notepad++.exe"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: :VCEnd" exited with code 3.

@@ -1,0 +1,315 @@
+﻿cl : Command line warning D9002: ignoring unknown option '/arch:IA32'
+cl : Command line warning D9002: ignoring unknown option '/arch:IA32'
+  LongRunningOperation.cpp
+cl : Command line warning D9002: ignoring unknown option '/arch:IA32'
+  mutex.cpp
+cl : Command line warning D9002: ignoring unknown option '/arch:IA32'
+  AboutDlg.cpp
+cl : Command line warning D9002: ignoring unknown option '/arch:IA32'
+  ansiCharPanel.cpp
+  AutoCompletion.cpp
+  BabyGrid.cpp
+  BabyGridWrapper.cpp
+..\src\WinControls\Grid\BabyGrid.cpp(152): warning C4311: 'type cast': pointer truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(152): warning C4302: 'type cast': truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(612): warning C4311: 'type cast': pointer truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(612): warning C4302: 'type cast': truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(1344): warning C4311: 'type cast': pointer truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(1344): warning C4302: 'type cast': truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(1556): warning C4311: 'type cast': pointer truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(1556): warning C4302: 'type cast': truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(1640): warning C4311: 'type cast': pointer truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(1640): warning C4302: 'type cast': truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(1779): warning C4311: 'reinterpret_cast': pointer truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(1779): warning C4302: 'reinterpret_cast': truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(1843): warning C4311: 'type cast': pointer truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(1843): warning C4302: 'type cast': truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(1935): warning C4311: 'type cast': pointer truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(1935): warning C4302: 'type cast': truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(1963): warning C4311: 'type cast': pointer truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(1963): warning C4302: 'type cast': truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(2938): warning C4311: 'type cast': pointer truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(2938): warning C4302: 'type cast': truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(2956): warning C4311: 'type cast': pointer truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(2956): warning C4302: 'type cast': truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(3122): warning C4311: 'type cast': pointer truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(3122): warning C4302: 'type cast': truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(3143): warning C4311: 'type cast': pointer truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGrid.cpp(3143): warning C4302: 'type cast': truncation from 'HMENU' to 'UINT'
+..\src\WinControls\Grid\BabyGridWrapper.cpp(47): warning C4312: 'reinterpret_cast': conversion from 'int' to 'HMENU' of greater size
+  Buffer.cpp
+  CharDistribution.cpp
+  clipboardHistoryPanel.cpp
+  ColourPicker.cpp
+  ColourPopup.cpp
+  columnEditor.cpp
+  Common.cpp
+  ContextMenu.cpp
+  ControlsTab.cpp
+  DockingCont.cpp
+  DockingManager.cpp
+  DockingSplitter.cpp
+  DocTabView.cpp
+  documentMap.cpp
+  EncodingMapper.cpp
+  FileDialog.cpp
+  FindCharsInRange.cpp
+  FindReplaceDlg.cpp
+  FunctionCallTip.cpp
+  functionListPanel.cpp
+  functionParser.cpp
+  GoToLineDlg.cpp
+  Gripper.cpp
+  IDAllocator.cpp
+  ImageListSet.cpp
+  JpCntx.cpp
+  LangBulgarianModel.cpp
+  LangCyrillicModel.cpp
+  LangGreekModel.cpp
+  LangHebrewModel.cpp
+  LangHungarianModel.cpp
+  LangThaiModel.cpp
+  lastRecentFileList.cpp
+  lesDlgs.cpp
+  ListView.cpp
+  localization.cpp
+  MiniDumper.cpp
+  Notepad_plus.cpp
+  Notepad_plus_Window.cpp
+  NppBigSwitch.cpp
+  NppCommands.cpp
+  NppIO.cpp
+  NppNotification.cpp
+  nsBig5Prober.cpp
+  nsCharSetProber.cpp
+  nsEscCharsetProber.cpp
+  nsEscSM.cpp
+  nsEUCJPProber.cpp
+  nsEUCKRProber.cpp
+  nsEUCTWProber.cpp
+  nsGB2312Prober.cpp
+  nsHebrewProber.cpp
+  nsLatin1Prober.cpp
+  nsMBCSGroupProber.cpp
+  nsMBCSSM.cpp
+  nsSBCharSetProber.cpp
+  nsSBCSGroupProber.cpp
+  nsSJISProber.cpp
+  nsUniversalDetector.cpp
+  nsUTF8Prober.cpp
+  Parameters.cpp
+  PluginsManager.cpp
+  preferenceDlg.cpp
+  Printer.cpp
+..\src\Misc\PluginsManager\PluginsManager.cpp(473): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::size_t'
+  ..\src\Misc\PluginsManager\PluginsManager.cpp(473): note: consider using '%zd' in the format string
+..\src\Misc\PluginsManager\PluginsManager.cpp(529): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'uptr_t'
+  ..\src\Misc\PluginsManager\PluginsManager.cpp(529): note: consider using '%lld' in the format string
+  ..\src\Misc\PluginsManager\PluginsManager.cpp(529): note: consider using '%Id' in the format string
+  ..\src\Misc\PluginsManager\PluginsManager.cpp(529): note: consider using '%I64d' in the format string
+..\src\Misc\PluginsManager\PluginsManager.cpp(555): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'WPARAM'
+  ..\src\Misc\PluginsManager\PluginsManager.cpp(555): note: consider using '%lld' in the format string
+  ..\src\Misc\PluginsManager\PluginsManager.cpp(555): note: consider using '%Id' in the format string
+  ..\src\Misc\PluginsManager\PluginsManager.cpp(555): note: consider using '%I64d' in the format string
+..\src\Misc\PluginsManager\PluginsManager.cpp(555): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'LPARAM'
+  ..\src\Misc\PluginsManager\PluginsManager.cpp(555): note: consider using '%lld' in the format string
+  ..\src\Misc\PluginsManager\PluginsManager.cpp(555): note: consider using '%Id' in the format string
+  ..\src\Misc\PluginsManager\PluginsManager.cpp(555): note: consider using '%I64d' in the format string
+..\src\Misc\PluginsManager\PluginsManager.cpp(586): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'WPARAM'
+  ..\src\Misc\PluginsManager\PluginsManager.cpp(586): note: consider using '%lld' in the format string
+  ..\src\Misc\PluginsManager\PluginsManager.cpp(586): note: consider using '%Id' in the format string
+  ..\src\Misc\PluginsManager\PluginsManager.cpp(586): note: consider using '%I64d' in the format string
+..\src\Misc\PluginsManager\PluginsManager.cpp(586): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'LPARAM'
+  ..\src\Misc\PluginsManager\PluginsManager.cpp(586): note: consider using '%lld' in the format string
+  ..\src\Misc\PluginsManager\PluginsManager.cpp(586): note: consider using '%Id' in the format string
+  ..\src\Misc\PluginsManager\PluginsManager.cpp(586): note: consider using '%I64d' in the format string
+  Processus.cpp
+  ProjectPanel.cpp
+  regExtDlg.cpp
+  RunDlg.cpp
+  RunMacroDlg.cpp
+  ScintillaCtrls.cpp
+  ScintillaEditView.cpp
+..\src\WinControls\StaticDialog\RunDlg\RunDlg.cpp(225): warning C4311: '<function-style-cast>': pointer truncation from 'HINSTANCE' to 'int'
+..\src\WinControls\StaticDialog\RunDlg\RunDlg.cpp(225): warning C4302: '<function-style-cast>': truncation from 'HINSTANCE' to 'int'
+..\src\ScitillaComponent\ScintillaEditView.cpp(789): warning C4311: 'reinterpret_cast': pointer truncation from 'const TCHAR *' to 'int'
+..\src\ScitillaComponent\ScintillaEditView.cpp(789): warning C4302: 'reinterpret_cast': truncation from 'const TCHAR *' to 'int'
+..\src\ScitillaComponent\ScintillaEditView.cpp(792): warning C4311: 'reinterpret_cast': pointer truncation from 'BufferID' to 'int'
+..\src\ScitillaComponent\ScintillaEditView.cpp(792): warning C4302: 'reinterpret_cast': truncation from 'BufferID' to 'int'
+  shortcut.cpp
+  ShortcutMapper.cpp
+  SizeableDlg.cpp
+  SmartHighlighter.cpp
+  Splitter.cpp
+  SplitterContainer.cpp
+  StaticDialog.cpp
+  StatusBar.cpp
+  TabBar.cpp
+  TaskList.cpp
+  TaskListDlg.cpp
+  tinystr.cpp
+  tinystrA.cpp
+  tinyxml.cpp
+  tinyxmlA.cpp
+  tinyxmlerror.cpp
+  tinyxmlerrorA.cpp
+  tinyxmlparser.cpp
+  tinyxmlparserA.cpp
+  ToolBar.cpp
+  ToolTip.cpp
+  trayIconControler.cpp
+  TreeView.cpp
+  uchardet.cpp
+  UniConversion.cpp
+  URLCtrl.cpp
+  UserDefineDialog.cpp
+  Utf8_16.cpp
+  VerticalFileSwitcher.cpp
+  VerticalFileSwitcherListView.cpp
+  Win32Exception.cpp
+  WindowsDlg.cpp
+  winmain.cpp
+  WinMgr.cpp
+  WinRect.cpp
+  WordStyleDlg.cpp
+  xmlMatchedTagsHighlighter.cpp
+  fileBrowser.cpp
+..\src\winmain.cpp(528): warning C4311: 'reinterpret_cast': pointer truncation from 'ExceptionAddress' to 'long'
+..\src\winmain.cpp(528): warning C4302: 'reinterpret_cast': truncation from 'ExceptionAddress' to 'long'
+  ReadDirectoryChanges.cpp
+  ReadDirectoryChangesPrivate.cpp
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\comctl32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\Oleacc.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\Dbghelp.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\user32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64\LIBCMT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64\libcpmt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\amd64\atls.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64\libvcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x64\libucrt.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\comctl32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\Oleacc.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\Dbghelp.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\user32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64\LIBCMT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64\libcpmt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\amd64\atls.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64\libvcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x64\libucrt.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\comctl32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\Oleacc.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\Dbghelp.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\user32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\odbccp32.lib:
+  
+  Finished searching libraries
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\comctl32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\Oleacc.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\Dbghelp.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\user32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64\LIBCMT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64\libcpmt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\amd64\atls.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64\libvcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x64\libucrt.lib:
+  
+  Finished searching libraries
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\comctl32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\shlwapi.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\Oleacc.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\Dbghelp.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\user32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\lib\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64\LIBCMT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64\libcpmt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\amd64\atls.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\amd64\libvcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x64\libucrt.lib:
+  
+  Finished searching libraries
+  notepadPlus.vs2015.vcxproj -> C:\Users\jacob\Desktop\notepad-plus-plus-master\notepad-plus-plus-master\PowerEditor\visual.net\..\bin64\Notepad++.exe
+  notepadPlus.vs2015.vcxproj -> ..\bin64\npp.pdb (Full PDB)
+  The system cannot find the file specified.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+  The system cannot find the path specified.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: The command "copy ..\src\config.model.xml ..\bin64\config.model.xml
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: copy ..\src\langs.model.xml ..\bin64\langs.model.xml
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: copy ..\src\stylers.model.xml ..\bin64\stylers.model.xml
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: copy ..\src\shortcuts.xml ..\bin64\shortcuts.xml
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: copy ..\src\functionList.xml ..\bin64\functionList.xml
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: copy ..\src\contextMenu.xml ..\bin64\contextMenu.xml
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: ..\misc\vistaIconTool\changeIcon.bat "..\misc\vistaIconTool\ChangeIcon.exe" "..\bin64\notepad++.exe"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: :VCEnd" exited with code 3.

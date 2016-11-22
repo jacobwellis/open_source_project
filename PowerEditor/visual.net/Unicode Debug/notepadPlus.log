@@ -1,0 +1,354 @@
+﻿  mutex.cpp
+  Processus.cpp
+  AboutDlg.cpp
+  ansiCharPanel.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\MISC\Common\mutex.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\AnsiCharPanel\ansiCharPanel.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\MISC\Process\Processus.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\AboutDlg\AboutDlg.cpp)
+  AutoCompletion.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\ScitillaComponent\AutoCompletion.cpp)
+  fileBrowser.cpp
+  BabyGrid.cpp
+  Buffer.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\ScitillaComponent\Buffer.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\FileBrowser\fileBrowser.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\Grid\BabyGrid.cpp)
+..\src\ScitillaComponent\AutoCompletion.cpp(114): warning C4456: declaration of 'len' hides previous local declaration
+  ..\src\ScitillaComponent\AutoCompletion.cpp(114): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\ScitillaComponent\AutoCompletion.cpp(84): note: see declaration of 'len'
+..\src\ScitillaComponent\AutoCompletion.cpp(355): warning C4456: declaration of 'len' hides previous local declaration
+  ..\src\ScitillaComponent\AutoCompletion.cpp(355): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\ScitillaComponent\AutoCompletion.cpp(331): note: see declaration of 'len'
+  clipboardHistoryPanel.cpp
+..\src\WinControls\Grid\BabyGrid.cpp(344): warning C4459: declaration of 'holdfont' hides global declaration
+  ..\src\WinControls\Grid\BabyGrid.cpp(344): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Grid\BabyGrid.cpp(28): note: see declaration of 'holdfont'
+..\src\WinControls\Grid\BabyGrid.cpp(365): warning C4459: declaration of 'holdfont' hides global declaration
+  ..\src\WinControls\Grid\BabyGrid.cpp(365): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Grid\BabyGrid.cpp(28): note: see declaration of 'holdfont'
+..\src\WinControls\Grid\BabyGrid.cpp(1163): warning C4459: declaration of 'holdfont' hides global declaration
+  ..\src\WinControls\Grid\BabyGrid.cpp(1163): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Grid\BabyGrid.cpp(28): note: see declaration of 'holdfont'
+..\src\WinControls\Grid\BabyGrid.cpp(1316): warning C4996: 'wcstok': wcstok has been changed to conform with the ISO C standard, adding an extra context parameter. To use the legacy Microsoft wcstok, define _CRT_NON_CONFORMING_WCSTOK.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(254): note: see declaration of 'wcstok'
+..\src\WinControls\Grid\BabyGrid.cpp(1324): warning C4996: 'wcstok': wcstok has been changed to conform with the ISO C standard, adding an extra context parameter. To use the legacy Microsoft wcstok, define _CRT_NON_CONFORMING_WCSTOK.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(254): note: see declaration of 'wcstok'
+..\src\WinControls\Grid\BabyGrid.cpp(1421): warning C4459: declaration of 'holdfont' hides global declaration
+  ..\src\WinControls\Grid\BabyGrid.cpp(1421): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Grid\BabyGrid.cpp(28): note: see declaration of 'holdfont'
+..\src\WinControls\Grid\BabyGrid.cpp(1709): warning C4456: declaration of 'hdc' hides previous local declaration
+  ..\src\WinControls\Grid\BabyGrid.cpp(1709): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Grid\BabyGrid.cpp(1334): note: see declaration of 'hdc'
+..\src\WinControls\Grid\BabyGrid.cpp(1716): warning C4459: declaration of 'holdfont' hides global declaration
+  ..\src\WinControls\Grid\BabyGrid.cpp(1716): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Grid\BabyGrid.cpp(28): note: see declaration of 'holdfont'
+..\src\WinControls\Grid\BabyGrid.cpp(2204): warning C4456: declaration of 'x' hides previous local declaration
+  ..\src\WinControls\Grid\BabyGrid.cpp(2204): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Grid\BabyGrid.cpp(2152): note: see declaration of 'x'
+..\src\WinControls\Grid\BabyGrid.cpp(2204): warning C4456: declaration of 'y' hides previous local declaration
+  ..\src\WinControls\Grid\BabyGrid.cpp(2204): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Grid\BabyGrid.cpp(2152): note: see declaration of 'y'
+..\src\WinControls\Grid\BabyGrid.cpp(2204): warning C4456: declaration of 'r' hides previous local declaration
+  ..\src\WinControls\Grid\BabyGrid.cpp(2204): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Grid\BabyGrid.cpp(2152): note: see declaration of 'r'
+..\src\WinControls\Grid\BabyGrid.cpp(2204): warning C4456: declaration of 'c' hides previous local declaration
+  ..\src\WinControls\Grid\BabyGrid.cpp(2204): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Grid\BabyGrid.cpp(2152): note: see declaration of 'c'
+..\src\WinControls\Grid\BabyGrid.cpp(2208): warning C4456: declaration of 'c' hides previous local declaration
+  ..\src\WinControls\Grid\BabyGrid.cpp(2208): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Grid\BabyGrid.cpp(2204): note: see declaration of 'c'
+..\src\WinControls\Grid\BabyGrid.cpp(2208): warning C4456: declaration of 'x' hides previous local declaration
+  ..\src\WinControls\Grid\BabyGrid.cpp(2208): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Grid\BabyGrid.cpp(2204): note: see declaration of 'x'
+..\src\WinControls\Grid\BabyGrid.cpp(2208): warning C4456: declaration of 't' hides previous local declaration
+  ..\src\WinControls\Grid\BabyGrid.cpp(2208): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Grid\BabyGrid.cpp(2152): note: see declaration of 't'
+..\src\WinControls\Grid\BabyGrid.cpp(2208): warning C4456: declaration of 'z' hides previous local declaration
+  ..\src\WinControls\Grid\BabyGrid.cpp(2208): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Grid\BabyGrid.cpp(2152): note: see declaration of 'z'
+..\src\WinControls\Grid\BabyGrid.cpp(2942): warning C4456: declaration of 'hdc' hides previous local declaration
+  ..\src\WinControls\Grid\BabyGrid.cpp(2942): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Grid\BabyGrid.cpp(1334): note: see declaration of 'hdc'
+..\src\WinControls\Grid\BabyGrid.cpp(3244): warning C4459: declaration of 'FindResult' hides global declaration
+  ..\src\WinControls\Grid\BabyGrid.cpp(3244): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Grid\BabyGrid.cpp(104): note: see declaration of 'FindResult'
+  ColourPicker.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\ColourPicker\ColourPicker.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\ClipboardHistory\clipboardHistoryPanel.cpp)
+  ColourPopup.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\ColourPicker\ColourPopup.cpp)
+  columnEditor.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\ScitillaComponent\columnEditor.cpp)
+  Common.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\MISC\Common\Common.cpp)
+  ContextMenu.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\ContextMenu\ContextMenu.cpp)
+  ReadDirectoryChanges.cpp
+  ReadDirectoryChangesPrivate.cpp
+  ControlsTab.cpp
+  DockingCont.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\ReadDirectoryChanges\ReadDirectoryChanges.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\TabBar\ControlsTab.cpp)
+  DockingManager.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\DockingWnd\DockingManager.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\DockingWnd\DockingCont.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\ReadDirectoryChanges\ReadDirectoryChangesPrivate.cpp)
+  DockingSplitter.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\DockingWnd\DockingSplitter.cpp)
+  DocTabView.cpp
+..\src\WinControls\DockingWnd\DockingCont.cpp(1114): warning C4456: declaration of 'iItemCnt' hides previous local declaration
+  ..\src\WinControls\DockingWnd\DockingCont.cpp(1114): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\DockingWnd\DockingCont.cpp(1020): note: see declaration of 'iItemCnt'
+..\src\WinControls\DockingWnd\DockingCont.cpp(1343): warning C4456: declaration of 'nmhdr' hides previous local declaration
+  ..\src\WinControls\DockingWnd\DockingCont.cpp(1343): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\DockingWnd\DockingCont.cpp(1327): note: see declaration of 'nmhdr'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\ScitillaComponent\DocTabView.cpp)
+  documentMap.cpp
+..\src\WinControls\DockingWnd\DockingManager.cpp(428): warning C4457: declaration of 'rc' hides function parameter
+  ..\src\WinControls\DockingWnd\DockingManager.cpp(428): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\DockingWnd\DockingManager.cpp(404): note: see declaration of 'rc'
+..\src\WinControls\DockingWnd\DockingManager.cpp(462): warning C4457: declaration of 'rc' hides function parameter
+  ..\src\WinControls\DockingWnd\DockingManager.cpp(462): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\DockingWnd\DockingManager.cpp(404): note: see declaration of 'rc'
+..\src\WinControls\DockingWnd\DockingManager.cpp(482): warning C4457: declaration of 'rc' hides function parameter
+  ..\src\WinControls\DockingWnd\DockingManager.cpp(482): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\DockingWnd\DockingManager.cpp(404): note: see declaration of 'rc'
+..\src\WinControls\DockingWnd\DockingManager.cpp(511): warning C4457: declaration of 'rc' hides function parameter
+  ..\src\WinControls\DockingWnd\DockingManager.cpp(511): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\DockingWnd\DockingManager.cpp(404): note: see declaration of 'rc'
+  FileDialog.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\DocumentMap\documentMap.cpp)
+  FindCharsInRange.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\OpenSaveFileDialog\FileDialog.cpp)
+  FindReplaceDlg.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\FindCharsInRange\FindCharsInRange.cpp)
+  FunctionCallTip.cpp
+..\src\WinControls\DocumentMap\documentMap.cpp(414): warning C4459: declaration of 'orange' hides global declaration
+  ..\src\WinControls\DocumentMap\documentMap.cpp(414): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  c:\users\jacob\desktop\notepad-plus-plus-master\notepad-plus-plus-master\powereditor\src\scitillacomponent\colors.h(59): note: see declaration of 'orange' (compiling source file ..\src\WinControls\DocumentMap\documentMap.cpp)
+..\src\WinControls\DocumentMap\documentMap.cpp(415): warning C4459: declaration of 'white' hides global declaration
+  ..\src\WinControls\DocumentMap\documentMap.cpp(415): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  c:\users\jacob\desktop\notepad-plus-plus-master\notepad-plus-plus-master\powereditor\src\scitillacomponent\colors.h(48): note: see declaration of 'white' (compiling source file ..\src\WinControls\DocumentMap\documentMap.cpp)
+  functionListPanel.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\ScitillaComponent\FindReplaceDlg.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\ScitillaComponent\FunctionCallTip.cpp)
+  functionParser.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\FunctionList\functionListPanel.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\FunctionList\functionParser.cpp)
+  GoToLineDlg.cpp
+  Gripper.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\DockingWnd\Gripper.cpp)
+  ImageListSet.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\ScitillaComponent\GoToLineDlg.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\ImageListSet\ImageListSet.cpp)
+..\src\WinControls\FunctionList\functionParser.cpp(521): warning C4457: declaration of 'classStructName' hides function parameter
+  ..\src\WinControls\FunctionList\functionParser.cpp(521): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\FunctionList\functionParser.cpp(503): note: see declaration of 'classStructName'
+  lastRecentFileList.cpp
+  lesDlgs.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\lastRecentFileList.cpp)
+  ListView.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\AnsiCharPanel\ListView.cpp)
+  localization.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\lesDlgs.cpp)
+  MiniDumper.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\localization.cpp)
+  Notepad_plus.cpp
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\dbghelp.h(1540): error C2220: warning treated as error - no 'object' file generated (compiling source file ..\src\MISC\Exception\MiniDumper.cpp)
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\dbghelp.h(1540): warning C4091: 'typedef ': ignored on left of '' when no variable is declared (compiling source file ..\src\MISC\Exception\MiniDumper.cpp)
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\dbghelp.h(3056): warning C4091: 'typedef ': ignored on left of '' when no variable is declared (compiling source file ..\src\MISC\Exception\MiniDumper.cpp)
+  Notepad_plus_Window.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\Notepad_plus.cpp)
+  NppBigSwitch.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\NppBigSwitch.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\Notepad_plus_Window.cpp)
+..\src\localization.cpp(249): warning C4459: declaration of 'menuPos' hides global declaration
+  ..\src\localization.cpp(249): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\localization.cpp(38): note: see declaration of 'menuPos'
+..\src\localization.cpp(306): warning C4459: declaration of 'menuPos' hides global declaration
+  ..\src\localization.cpp(306): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\localization.cpp(38): note: see declaration of 'menuPos'
+  NppCommands.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\NppCommands.cpp)
+..\src\Notepad_plus.cpp(697): warning C4456: declaration of 'len' hides previous local declaration
+  ..\src\Notepad_plus.cpp(697): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\Notepad_plus.cpp(553): note: see declaration of 'len'
+..\src\Notepad_plus.cpp(709): warning C4456: declaration of 'len' hides previous local declaration
+  ..\src\Notepad_plus.cpp(709): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\Notepad_plus.cpp(553): note: see declaration of 'len'
+..\src\Notepad_plus.cpp(1987): warning C4459: declaration of 'nbChar' hides global declaration
+  ..\src\Notepad_plus.cpp(1987): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  c:\users\jacob\desktop\notepad-plus-plus-master\notepad-plus-plus-master\powereditor\src\misc\pluginsmanager\PluginInterface.h(40): note: see declaration of 'nbChar' (compiling source file ..\src\Notepad_plus.cpp)
+..\src\Notepad_plus.cpp(2561): warning C4456: declaration of 'startPos' hides previous local declaration
+  ..\src\Notepad_plus.cpp(2561): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\Notepad_plus.cpp(2542): note: see declaration of 'startPos'
+..\src\Notepad_plus.cpp(2562): warning C4456: declaration of 'endPos' hides previous local declaration
+  ..\src\Notepad_plus.cpp(2562): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\Notepad_plus.cpp(2543): note: see declaration of 'endPos'
+..\src\Notepad_plus.cpp(3110): warning C4456: declaration of 'lastOpened' hides previous local declaration
+  ..\src\Notepad_plus.cpp(3110): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\Notepad_plus.cpp(3080): note: see declaration of 'lastOpened'
+..\src\Notepad_plus.cpp(5359): warning C4459: declaration of 'nbChar' hides global declaration
+  ..\src\Notepad_plus.cpp(5359): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  c:\users\jacob\desktop\notepad-plus-plus-master\notepad-plus-plus-master\powereditor\src\misc\pluginsmanager\PluginInterface.h(40): note: see declaration of 'nbChar' (compiling source file ..\src\Notepad_plus.cpp)
+  NppIO.cpp
+..\src\Notepad_plus_Window.cpp(199): warning C4459: declaration of 'nppDir' hides global declaration
+  ..\src\Notepad_plus_Window.cpp(199): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  C:\Users\jacob\Desktop\notepad-plus-plus-master\notepad-plus-plus-master\PowerEditor\src\WinControls\StaticDialog\RunDlg\RunDlg.h(36): note: see declaration of 'nppDir' (compiling source file ..\src\Notepad_plus_Window.cpp)
+  NppNotification.cpp
+  Parameters.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\NppNotification.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\NppIO.cpp)
+..\src\NppCommands.cpp(1887): warning C4459: declaration of 'nbChar' hides global declaration
+  ..\src\NppCommands.cpp(1887): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  c:\users\jacob\desktop\notepad-plus-plus-master\notepad-plus-plus-master\powereditor\src\misc\pluginsmanager\PluginInterface.h(40): note: see declaration of 'nbChar' (compiling source file ..\src\NppCommands.cpp)
+  PluginsManager.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\Parameters.cpp)
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\DbgHelp.h(1540): error C2220: warning treated as error - no 'object' file generated (compiling source file ..\src\Misc\PluginsManager\PluginsManager.cpp)
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\DbgHelp.h(1540): warning C4091: 'typedef ': ignored on left of '' when no variable is declared (compiling source file ..\src\Misc\PluginsManager\PluginsManager.cpp)
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\DbgHelp.h(3056): warning C4091: 'typedef ': ignored on left of '' when no variable is declared (compiling source file ..\src\Misc\PluginsManager\PluginsManager.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\Misc\PluginsManager\PluginsManager.cpp)
+..\src\NppNotification.cpp(380): warning C4456: declaration of 'p' hides previous local declaration
+  ..\src\NppNotification.cpp(380): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\NppNotification.cpp(364): note: see declaration of 'p'
+..\src\NppNotification.cpp(387): warning C4456: declaration of 'p' hides previous local declaration
+  ..\src\NppNotification.cpp(387): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\NppNotification.cpp(364): note: see declaration of 'p'
+..\src\NppNotification.cpp(925): warning C4459: declaration of 'currentWord' hides global declaration
+  ..\src\NppNotification.cpp(925): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  C:\Users\jacob\Desktop\notepad-plus-plus-master\notepad-plus-plus-master\PowerEditor\src\WinControls\StaticDialog\RunDlg\RunDlg.h(35): note: see declaration of 'currentWord' (compiling source file ..\src\NppNotification.cpp)
+  preferenceDlg.cpp
+..\src\Parameters.cpp(2928): warning C4456: declaration of 'len' hides previous local declaration
+  ..\src\Parameters.cpp(2928): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\Parameters.cpp(2912): note: see declaration of 'len'
+..\src\Parameters.cpp(2935): warning C4456: declaration of 'len' hides previous local declaration
+  ..\src\Parameters.cpp(2935): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\Parameters.cpp(2912): note: see declaration of 'len'
+..\src\NppIO.cpp(235): warning C4456: declaration of 'res' hides previous local declaration
+  ..\src\NppIO.cpp(235): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\NppIO.cpp(170): note: see declaration of 'res'
+..\src\NppIO.cpp(280): warning C4456: declaration of 'isSnapshotMode' hides previous local declaration
+  ..\src\NppIO.cpp(280): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\NppIO.cpp(159): note: see declaration of 'isSnapshotMode'
+..\src\NppIO.cpp(284): warning C4456: declaration of 'scnN' hides previous local declaration
+  ..\src\NppIO.cpp(284): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\NppIO.cpp(262): note: see declaration of 'scnN'
+..\src\NppIO.cpp(504): warning C4456: declaration of 'res' hides previous local declaration
+  ..\src\NppIO.cpp(504): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\NppIO.cpp(476): note: see declaration of 'res'
+..\src\NppIO.cpp(548): warning C4456: declaration of 'res' hides previous local declaration
+  ..\src\NppIO.cpp(548): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\NppIO.cpp(476): note: see declaration of 'res'
+..\src\Parameters.cpp(5895): warning C4456: declaration of 'lexersRoot' hides previous local declaration
+  ..\src\Parameters.cpp(5895): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\Parameters.cpp(5859): note: see declaration of 'lexersRoot'
+  Printer.cpp
+  ProjectPanel.cpp
+  regExtDlg.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\Preference\preferenceDlg.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\MISC\RegExt\regExtDlg.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\ProjectPanel\ProjectPanel.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\ScitillaComponent\Printer.cpp)
+..\src\WinControls\Preference\preferenceDlg.cpp(801): warning C4456: declaration of 'svp' hides previous local declaration
+  ..\src\WinControls\Preference\preferenceDlg.cpp(801): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Preference\preferenceDlg.cpp(701): note: see declaration of 'svp'
+..\src\WinControls\Preference\preferenceDlg.cpp(3027): warning C4457: declaration of 'message' hides function parameter
+  ..\src\WinControls\Preference\preferenceDlg.cpp(3027): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Preference\preferenceDlg.cpp(3007): note: see declaration of 'message'
+..\src\WinControls\Preference\preferenceDlg.cpp(3035): warning C4457: declaration of 'message' hides function parameter
+  ..\src\WinControls\Preference\preferenceDlg.cpp(3035): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Preference\preferenceDlg.cpp(3007): note: see declaration of 'message'
+..\src\WinControls\Preference\preferenceDlg.cpp(3049): warning C4457: declaration of 'message' hides function parameter
+  ..\src\WinControls\Preference\preferenceDlg.cpp(3049): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Preference\preferenceDlg.cpp(3007): note: see declaration of 'message'
+..\src\WinControls\Preference\preferenceDlg.cpp(3078): warning C4457: declaration of 'message' hides function parameter
+  ..\src\WinControls\Preference\preferenceDlg.cpp(3078): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Preference\preferenceDlg.cpp(3007): note: see declaration of 'message'
+..\src\WinControls\Preference\preferenceDlg.cpp(3089): warning C4457: declaration of 'message' hides function parameter
+  ..\src\WinControls\Preference\preferenceDlg.cpp(3089): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\Preference\preferenceDlg.cpp(3007): note: see declaration of 'message'
+  RunDlg.cpp
+  RunMacroDlg.cpp
+  ScintillaCtrls.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\ScitillaComponent\ScintillaCtrls.cpp)
+  ScintillaEditView.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\StaticDialog\RunDlg\RunDlg.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\shortcut\RunMacroDlg.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\ScitillaComponent\ScintillaEditView.cpp)
+  shortcut.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\shortcut\shortcut.cpp)
+  ShortcutMapper.cpp
+  SizeableDlg.cpp
+  SmartHighlighter.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\ScitillaComponent\SmartHighlighter.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\Grid\ShortcutMapper.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\WindowsDlg\SizeableDlg.cpp)
+  Splitter.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\SplitterContainer\Splitter.cpp)
+..\src\WinControls\shortcut\shortcut.cpp(336): warning C4459: declaration of 'nbChar' hides global declaration
+  ..\src\WinControls\shortcut\shortcut.cpp(336): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  c:\users\jacob\desktop\notepad-plus-plus-master\notepad-plus-plus-master\powereditor\src\misc\pluginsmanager\PluginInterface.h(40): note: see declaration of 'nbChar' (compiling source file ..\src\WinControls\shortcut\shortcut.cpp)
+  SplitterContainer.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\SplitterContainer\SplitterContainer.cpp)
+  StatusBar.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\StatusBar\StatusBar.cpp)
+  TabBar.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\TabBar\TabBar.cpp)
+  TaskList.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\TaskList\TaskList.cpp)
+  TaskListDlg.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\TaskList\TaskListDlg.cpp)
+  tinystrA.cpp
+  tinyxml.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\TinyXml\tinyxml.cpp)
+  tinyxmlA.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\TinyXml\tinyXmlA\tinystrA.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\TinyXml\tinyXmlA\tinyxmlA.cpp)
+  tinyxmlerror.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\TinyXml\tinyxmlerror.cpp)
+  tinyxmlerrorA.cpp
+  tinyxmlparser.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\TinyXml\tinyxmlparser.cpp)
+  tinyxmlparserA.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\TinyXml\tinyXmlA\tinyxmlparserA.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\TinyXml\tinyXmlA\tinyxmlerrorA.cpp)
+  ToolBar.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\ToolBar\ToolBar.cpp)
+  ToolTip.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\ToolTip\ToolTip.cpp)
+..\src\TinyXml\tinyXmlA\tinyxmlparserA.cpp(792): warning C4456: declaration of 'pErr' hides previous local declaration
+  ..\src\TinyXml\tinyXmlA\tinyxmlparserA.cpp(792): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\TinyXml\tinyXmlA\tinyxmlparserA.cpp(724): note: see declaration of 'pErr'
+..\src\TinyXml\tinyxmlparser.cpp(773): warning C4456: declaration of 'pErr' hides previous local declaration
+  ..\src\TinyXml\tinyxmlparser.cpp(773): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\TinyXml\tinyxmlparser.cpp(705): note: see declaration of 'pErr'
+  TreeView.cpp
+  uchardet.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\uchardet\uchardet.cpp)
+  URLCtrl.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\ProjectPanel\TreeView.cpp)
+  UserDefineDialog.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\ScitillaComponent\UserDefineDialog.cpp)
+  Utf8_16.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\AboutDlg\URLCtrl.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\Utf8_16.cpp)
+  VerticalFileSwitcher.cpp
+  VerticalFileSwitcherListView.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\VerticalFileSwitcher\VerticalFileSwitcher.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\VerticalFileSwitcher\VerticalFileSwitcherListView.cpp)
+  Win32Exception.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\MISC\Exception\Win32Exception.cpp)
+  WindowsDlg.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\WindowsDlg\WindowsDlg.cpp)
+  winmain.cpp
+  WordStyleDlg.cpp
+  xmlMatchedTagsHighlighter.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\ScitillaComponent\xmlMatchedTagsHighlighter.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\winmain.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h(112): error C2338: /RTCc rejects conformant code, so it isn't supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to acknowledge that you have received this warning. (compiling source file ..\src\WinControls\ColourPicker\WordStyleDlg.cpp)
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\dbghelp.h(1540): warning C4091: 'typedef ': ignored on left of '' when no variable is declared (compiling source file ..\src\winmain.cpp)
+..\src\WinControls\ColourPicker\WordStyleDlg.cpp(815): warning C4456: declaration of 'str' hides previous local declaration
+  ..\src\WinControls\ColourPicker\WordStyleDlg.cpp(815): note: to simplify migration, consider the temporary use of /Wv:18 flag with the version of the compiler with which you used to build without warnings
+  ..\src\WinControls\ColourPicker\WordStyleDlg.cpp(712): note: see declaration of 'str'
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\dbghelp.h(3056): warning C4091: 'typedef ': ignored on left of '' when no variable is declared (compiling source file ..\src\winmain.cpp)
