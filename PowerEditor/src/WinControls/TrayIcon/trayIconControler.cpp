@@ -27,6 +27,7 @@
 //Adding the wordcount
 
 
+
 #include "trayIconControler.h"
 
 trayIconControler::trayIconControler(HWND hwnd, UINT uID, UINT uCBMsg, HICON hicon, TCHAR *tip)
