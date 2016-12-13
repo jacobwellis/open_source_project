@@ -133,6 +133,7 @@ Notepad_plus::Notepad_plus()
 	, _autoCompleteSub(&_subEditView)
 	, _smartHighlighter(&_findReplaceDlg)
 {
+
 	ZeroMemory(&_prevSelectedRange, sizeof(_prevSelectedRange));
 
 

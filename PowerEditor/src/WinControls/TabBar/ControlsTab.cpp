@@ -68,6 +68,10 @@ void ControlsTab::reSizeTo(RECT & rc)
 	rc.bottom -= 55;
 	rc.right -= 20;
 
+	ControlsTab ct = new ControlsTab();
+	ct.activateAt(1)1; 
+
+
 	(*_pWinVector)[_current]._dlg->reSizeTo(rc);
 	(*_pWinVector)[_current]._dlg->redraw();
 
