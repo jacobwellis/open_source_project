@@ -100,7 +100,7 @@ void parseCommandLine(TCHAR * commandLine, ParamVector & paramVector) {
 				//because we dont want to leave in any quotes in the filename, remove them now (with zero terminator)
 				commandLine[i] = 0;
 				break; }
-			case '\t':	//also treat tab as whitespace
+			
 			case ' ': {
 				isInWhiteSpace = true;
 				if (!isInFile)
