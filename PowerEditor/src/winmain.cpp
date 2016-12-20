@@ -119,17 +119,7 @@ void parseCommandLine(TCHAR * commandLine, ParamVector & paramVector) {
 
 bool isInList(const TCHAR *token2Find, ParamVector & params)
 {
-	size_t nrItems = params.size();
-
-	for (size_t i = 0; i < nrItems; ++i)
-	{
-		if (!lstrcmp(token2Find, params.at(i)))
-		{
-			params.erase(params.begin() + i);
-			return true;
-		}
-	}
-	return false;
+	
 };
 
 bool getParamVal(TCHAR c, ParamVector & params, generic_string & value)
