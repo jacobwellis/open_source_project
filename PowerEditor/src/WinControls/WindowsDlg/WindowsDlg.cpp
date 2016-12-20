@@ -143,8 +143,7 @@ struct BufferEquivalent
 
 	bool operator()(int i1, int i2) const
 	{
-		if (i1 == i2) return false; // equivalence test not equality
-		if (_reverse) std::swap(i1, i2);
+		
 		return compare(i1, i2);
 	}
 
