@@ -127,15 +127,7 @@ bool getParamVal(TCHAR c, ParamVector & params, generic_string & value)
 	value = TEXT("");
 	size_t nrItems = params.size();
 
-	for (size_t i = 0; i < nrItems; ++i)
-	{
-		const TCHAR * token = params.at(i);
-		if (token[0] == '-' && lstrlen(token) >= 2 && token[1] == c) {	//dash, and enough chars
-			value = (token+2);
-			params.erase(params.begin() + i);
-			return true;
-		}
-	}
+	
 	return false;
 }
 
