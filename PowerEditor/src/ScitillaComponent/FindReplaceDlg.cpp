@@ -44,15 +44,69 @@ void addText2Combo(const TCHAR * txt2add, HWND hCombo)
 {
 	if (!hCombo) return;
 	if (!lstrcmp(txt2add, TEXT(""))) return;
+	if (current == '\\' && charLeft)
+	{	//possible escape sequence
+		++i;
+		--charLeft;
+		current = query[i];
+		switch (current)
+		{
+		case 'r':
+			result[j] = '\r';
+			break;
+		case 'n':
+			result[j] = '\n';
+			break;
+		case '0':
+			result[j] = '\0';
+			break;
+		case 't':
+			result[j] = '\t';
+			break;
+		case '\\':
+			result[j] = '\\';
+			break;
+		case 'b':
+		case 'd':
+		case 'o':
+		case 'x':
+		case 'u':
+		{
+			int size = 0, base = 0;
+			if (current == 'b')
+			{	//11111111
+				size = 8, base = 2;
+			}
+			else if (current == 'o')
+			{	//377
+				size = 3, base = 8;
+			}
+			else if (current == 'd')
+			{	//255
+				size = 3, base = 10;
+			}
+			else if (current == 'x')
+			{	//0xFF
+				size = 2, base = 16;
+			}
+			else if (current == 'u')
+			{	//0xCDCD
+				size = 4, base = 16;
+			}
 
-	auto i = ::SendMessage(hCombo, CB_FINDSTRINGEXACT, static_cast<WPARAM>(-1), reinterpret_cast<LPARAM>(txt2add));
-	if (i != CB_ERR) // found
-	{
-		::SendMessage(hCombo, CB_DELETESTRING, i, 0);
-	}
-
-	i = ::SendMessage(hCombo, CB_INSERTSTRING, 0, reinterpret_cast<LPARAM>(txt2add));
-	::SendMessage(hCombo, CB_SETCURSEL, i, 0);
+			if (charLeft >= size)
+			{
+				int res = 0;
+				if (Searching::readBase(query + (i + 1), &res, base, size))
+				{
+					result[j] = static_cast<TCHAR>(res);
+					i += size;
+					break;
+				}
+			}
+			//not enough chars to make parameter, use default method as fallback
+		}
+	
 };
 
 generic_string getTextFromCombo(HWND hCombo)
@@ -155,29 +209,7 @@ int Searching::convertExtendedToString(const TCHAR * query, TCHAR * result, int 
 }
 
 bool Searching::readBase(const TCHAR * str, int * value, int base, int size) {
-	int i = 0, temp = 0;
-	*value = 0;
-	TCHAR max = '0' + static_cast<TCHAR>(base) - 1;
-	TCHAR current;
-	while(i < size) {
-		current = str[i];
-		if (current >= 'A') 
-		{
-			current &= 0xdf;
-			current -= ('A' - '0' - 10);
-		}
-		else if (current > '9')
-			return false;
-
-		if (current >= '0' && current <= max) {
-			temp *= base;
-			temp += (current - '0');
-		} else {
-			return false;
-		}
-		++i;
-	}
-	*value = temp;
+	
 	return true;
 }
 
@@ -210,7 +242,7 @@ void Searching::displaySectionCentered(int posStart, int posEnd, ScintillaEditVi
 		//use center
 		linesToScroll += static_cast<int>(linesVisible/2);
 	}
-	pEditView->scroll(0, linesToScroll);
+	
 
 	//Make sure the caret is visible, scroll horizontally (this will also fix wrapping problems)
 	pEditView->execute(SCI_GOTOPOS, posStart);
@@ -242,8 +274,7 @@ void FindReplaceDlg::create(int dialogID, bool isRTL)
 {
 	StaticDialog::create(dialogID, isRTL);
 	fillFindHistory();
-	_currentStatus = REPLACE_DLG;
-	initOptionsFromDlg();
+	
 	
 	_statusBar.init(GetModuleHandle(NULL), _hSelf, 0);
 	_statusBar.display();
