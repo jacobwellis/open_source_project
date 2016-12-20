@@ -306,6 +306,16 @@ INT_PTR CALLBACK WindowsDlg::run_dlgProc(UINT message, WPARAM wParam, LPARAM lPa
 								{
 									pLvdi->item.pszText[len++] = '*';
 									pLvdi->item.pszText[len] = 0;
+									for (i = 0; i < n; ++i)
+										sortMap[_idxMap[i]] = ListView_GetItemState(_hList, i, LVIS_SELECTED);
+
+									stable_sort(_idxMap.begin(), _idxMap.end(), BufferEquivalent(_pTab, iColumn, reverse));
+									for (i = 0; i < n; ++i)
+										ListView_SetItemState(_hList, i, sortMap[_idxMap[i]] ? LVIS_SELECTED : 0, LVIS_SELECTED);
+
+									::InvalidateRect(_hList, &_rc, FALSE);
+									_isSorted = true;
+									updateButtonState();
 								}
 							}
 							else if (buf->isReadOnly())
