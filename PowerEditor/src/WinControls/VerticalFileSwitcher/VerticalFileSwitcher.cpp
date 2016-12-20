@@ -45,7 +45,70 @@ int CALLBACK ListViewCompareProc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSo
 	lvc.mask = LVCF_FMT;
 	::SendMessage(pnmListView->hdr.hwndFrom, LVM_GETCOLUMN, pnmListView->iSubItem, reinterpret_cast<LPARAM>(&lvc));
 	bool isDirectionUp = (HDF_SORTUP & lvc.fmt) != 0;
+	case WM_NOTIFY:
+	{
+		switch (((LPNMHDR)lParam)->code)
+		{
+		case NM_DBLCLK:
+		{
+			LPNMITEMACTIVATE lpnmitem = (LPNMITEMACTIVATE)lParam;
+			int i = lpnmitem->iItem;
+			if (i == -1)
+			{
+				::SendMessage(_hParent, WM_COMMAND, IDM_FILE_NEW, 0);
+			}
+			return TRUE;
+		}
 
+		case NM_CLICK:
+		{
+			if ((0x80 & GetKeyState(VK_CONTROL)) || (0x80 & GetKeyState(VK_SHIFT)))
+				return TRUE;
+
+			LPNMITEMACTIVATE lpnmitem = (LPNMITEMACTIVATE)lParam;
+			int nbItem = ListView_GetItemCount(_fileListView.getHSelf());
+			int i = lpnmitem->iItem;
+			if (i == -1 || i >= nbItem)
+				return TRUE;
+
+			LVITEM item;
+			item.mask = LVIF_PARAM;
+			item.iItem = i;
+			ListView_GetItem(((LPNMHDR)lParam)->hwndFrom, &item);
+			TaskLstFnStatus *tlfs = (TaskLstFnStatus *)item.lParam;
+
+			activateDoc(tlfs);
+			return TRUE;
+		}
+
+		case NM_RCLICK:
+		{
+			// Switch to the right document
+			LPNMITEMACTIVATE lpnmitem = (LPNMITEMACTIVATE)lParam;
+			int nbItem = ListView_GetItemCount(_fileListView.getHSelf());
+
+			if (nbSelectedFiles() == 1)
+			{
+				int i = lpnmitem->iItem;
+				if (i == -1 || i >= nbItem)
+					return TRUE;
+
+				LVITEM item;
+				item.mask = LVIF_PARAM;
+				item.iItem = i;
+				ListView_GetItem(((LPNMHDR)lParam)->hwndFrom, &item);
+				TaskLstFnStatus *tlfs = (TaskLstFnStatus *)item.lParam;
+
+				activateDoc(tlfs);
+			}
+			// Redirect NM_RCLICK message to Notepad_plus handle
+			NMHDR	nmhdr;
+			nmhdr.code = NM_RCLICK;
+			nmhdr.hwndFrom = _hSelf;
+			nmhdr.idFrom = ::GetDlgCtrlID(nmhdr.hwndFrom);
+			::SendMessage(_hParent, WM_NOTIFY, nmhdr.idFrom, reinterpret_cast<LPARAM>(&nmhdr));
+			return TRUE;
+		}
 	int result = lstrcmp(str1, str2);
 
 	if (isDirectionUp)

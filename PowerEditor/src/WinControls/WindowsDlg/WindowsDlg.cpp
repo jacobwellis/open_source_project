@@ -68,6 +68,12 @@ inline static BOOL ModifyStyleEx(HWND hWnd, DWORD dwRemove, DWORD dwAdd) {
 	if(dwStyle == dwNewStyle)
 		return FALSE;
 	::SetWindowLongPtr(hWnd, GWL_EXSTYLE, dwNewStyle);
+	DWORD dwStyle = (DWORD)::GetWindowLongPtr(hWnd, GWL_EXSTYLE);
+	DWORD dwNewStyle = (dwStyle & ~dwRemove) | dwAdd;
+	if (dwStyle == dwNewStyle)
+		return FALSE;
+	::SetWindowLongPtr(hWnd, GWL_EXSTYLE, dwNewStyle);
+	
 	return TRUE;
 }
 
