@@ -206,8 +206,7 @@ RECT WindowsDlg::_lastKnownLocation;
 
 WindowsDlg::WindowsDlg() : MyBaseClass(WindowsDlgMap)
 {
-	_szMinButton = SIZEZERO;
-	_szMinListCtrl = SIZEZERO;
+	
 }
 
 void WindowsDlg::init(HINSTANCE hInst, HWND parent, DocTabView *pTab)
