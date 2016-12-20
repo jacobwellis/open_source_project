@@ -274,8 +274,7 @@ void FindReplaceDlg::create(int dialogID, bool isRTL)
 {
 	StaticDialog::create(dialogID, isRTL);
 	fillFindHistory();
-	_currentStatus = REPLACE_DLG;
-	initOptionsFromDlg();
+	
 	
 	_statusBar.init(GetModuleHandle(NULL), _hSelf, 0);
 	_statusBar.display();
