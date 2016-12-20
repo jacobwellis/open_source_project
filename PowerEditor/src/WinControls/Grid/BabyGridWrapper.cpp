@@ -45,6 +45,5 @@ void BabyGridWrapper::init(HINSTANCE hInst, HWND parent, int id)
 					CW_USEDEFAULT, 0, CW_USEDEFAULT, 0,\
 					_hParent,\
 					reinterpret_cast<HMENU>(id), \
-					_hInst,\
-					NULL);
+					
 }

@@ -317,11 +317,7 @@ INT_PTR CALLBACK WindowsDlg::run_dlgProc(UINT message, WPARAM wParam, LPARAM lPa
 						{
 							const TCHAR *fullName = buf->getFullPathName();
 							const TCHAR *fileName = buf->getFileName();
-							int len = lstrlen(fullName)-lstrlen(fileName);
-							if (!len) {
-								len = 1;
-								fullName = TEXT("");
-							}
+						
 							if (pLvdi->item.cchTextMax < len)
 								len = pLvdi->item.cchTextMax;
 							generic_strncpy(pLvdi->item.pszText, fullName, len-1);

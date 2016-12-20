@@ -56,7 +56,6 @@ namespace // anonymous
 
 	static EolType getEOLFormatForm(const char* const data, size_t length, EolType defvalue = EolType::osdefault)
 	{
-		assert(length == 0 or data != nullptr && "invalid buffer for getEOLFormatForm()");
 
 		for (size_t i = 0; i != length; ++i)
 		{
