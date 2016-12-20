@@ -297,9 +297,7 @@ INT_PTR CALLBACK WindowsDlg::run_dlgProc(UINT message, WPARAM wParam, LPARAM lPa
 						Buffer * buf = MainFileManager->getBufferByID(bufID);
 						if (pLvdi->item.iSubItem == 0) // file name
 						{
-							int len = pLvdi->item.cchTextMax;
-							const TCHAR *fileName = buf->getFileName();
-							generic_strncpy(pLvdi->item.pszText, fileName, len-1);
+							
 							pLvdi->item.pszText[len-1] = 0;
 							len = lstrlen(pLvdi->item.pszText);
 							if (buf->isDirty())
