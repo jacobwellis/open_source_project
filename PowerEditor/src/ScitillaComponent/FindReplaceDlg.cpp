@@ -258,16 +258,40 @@ const int STYLING_MASK = 255;
 
 FindReplaceDlg::~FindReplaceDlg()
 {
-	_tab.destroy();
-	if (_pFinder)
-		delete _pFinder;
-	for (int n = static_cast<int32_t>(_findersOfFinder.size()) - 1; n >= 0; n--)
+	// to make sure the found result is visible
+	//When searching up, the beginning of the (possible multiline) result is important, when scrolling down the end
+	int testPos = isDownwards ? posEnd : posStart;
+
+	pEditView->execute(SCI_SETCURRENTPOS, testPos);
+	auto currentlineNumberDoc = pEditView->execute(SCI_LINEFROMPOSITION, testPos);
+	auto currentlineNumberVis = pEditView->execute(SCI_VISIBLEFROMDOCLINE, currentlineNumberDoc);
+	pEditView->execute(SCI_ENSUREVISIBLE, currentlineNumberDoc);	// make sure target line is unfolded
+
+	auto firstVisibleLineVis = pEditView->execute(SCI_GETFIRSTVISIBLELINE);
+	auto linesVisible = pEditView->execute(SCI_LINESONSCREEN) - 1;	//-1 for the scrollbar
+	auto lastVisibleLineVis = linesVisible + firstVisibleLineVis;
+
+	//if out of view vertically, scroll line into (center of) view
+	int linesToScroll = 0;
+	if (currentlineNumberVis < firstVisibleLineVis)
 	{
-		delete _findersOfFinder[n];
-		_findersOfFinder.erase(_findersOfFinder.begin() + n);
+		linesToScroll = static_cast<int>(currentlineNumberVis - firstVisibleLineVis);
+		//use center
+		linesToScroll -= static_cast<int>(linesVisible / 2);
+	}
+	else if (currentlineNumberVis > lastVisibleLineVis)
+	{
+		linesToScroll = static_cast<int>(currentlineNumberVis - lastVisibleLineVis);
+		//use center
+		linesToScroll += static_cast<int>(linesVisible / 2);
 	}
 
-	delete[] _uniFileName;
+
+	//Make sure the caret is visible, scroll horizontally (this will also fix wrapping problems)
+	pEditView->execute(SCI_GOTOPOS, posStart);
+	pEditView->execute(SCI_GOTOPOS, posEnd);
+
+	pEditView->execute(SCI_SETANCHOR, posStart);
 }
 
 void FindReplaceDlg::create(int dialogID, bool isRTL) 

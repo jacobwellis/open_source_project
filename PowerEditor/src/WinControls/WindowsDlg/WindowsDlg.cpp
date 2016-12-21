@@ -68,6 +68,12 @@ inline static BOOL ModifyStyleEx(HWND hWnd, DWORD dwRemove, DWORD dwAdd) {
 	if(dwStyle == dwNewStyle)
 		return FALSE;
 	::SetWindowLongPtr(hWnd, GWL_EXSTYLE, dwNewStyle);
+	DWORD dwStyle = (DWORD)::GetWindowLongPtr(hWnd, GWL_EXSTYLE);
+	DWORD dwNewStyle = (dwStyle & ~dwRemove) | dwAdd;
+	if (dwStyle == dwNewStyle)
+		return FALSE;
+	::SetWindowLongPtr(hWnd, GWL_EXSTYLE, dwNewStyle);
+	
 	return TRUE;
 }
 
@@ -137,8 +143,7 @@ struct BufferEquivalent
 
 	bool operator()(int i1, int i2) const
 	{
-		if (i1 == i2) return false; // equivalence test not equality
-		if (_reverse) std::swap(i1, i2);
+		
 		return compare(i1, i2);
 	}
 
@@ -201,8 +206,7 @@ RECT WindowsDlg::_lastKnownLocation;
 
 WindowsDlg::WindowsDlg() : MyBaseClass(WindowsDlgMap)
 {
-	_szMinButton = SIZEZERO;
-	_szMinListCtrl = SIZEZERO;
+	
 }
 
 void WindowsDlg::init(HINSTANCE hInst, HWND parent, DocTabView *pTab)
@@ -293,9 +297,7 @@ INT_PTR CALLBACK WindowsDlg::run_dlgProc(UINT message, WPARAM wParam, LPARAM lPa
 						Buffer * buf = MainFileManager->getBufferByID(bufID);
 						if (pLvdi->item.iSubItem == 0) // file name
 						{
-							int len = pLvdi->item.cchTextMax;
-							const TCHAR *fileName = buf->getFileName();
-							generic_strncpy(pLvdi->item.pszText, fileName, len-1);
+							
 							pLvdi->item.pszText[len-1] = 0;
 							len = lstrlen(pLvdi->item.pszText);
 							if (buf->isDirty())
@@ -304,6 +306,16 @@ INT_PTR CALLBACK WindowsDlg::run_dlgProc(UINT message, WPARAM wParam, LPARAM lPa
 								{
 									pLvdi->item.pszText[len++] = '*';
 									pLvdi->item.pszText[len] = 0;
+									for (i = 0; i < n; ++i)
+										sortMap[_idxMap[i]] = ListView_GetItemState(_hList, i, LVIS_SELECTED);
+
+									stable_sort(_idxMap.begin(), _idxMap.end(), BufferEquivalent(_pTab, iColumn, reverse));
+									for (i = 0; i < n; ++i)
+										ListView_SetItemState(_hList, i, sortMap[_idxMap[i]] ? LVIS_SELECTED : 0, LVIS_SELECTED);
+
+									::InvalidateRect(_hList, &_rc, FALSE);
+									_isSorted = true;
+									updateButtonState();
 								}
 							}
 							else if (buf->isReadOnly())
