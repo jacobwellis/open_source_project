@@ -100,7 +100,7 @@ void parseCommandLine(TCHAR * commandLine, ParamVector & paramVector) {
 				//because we dont want to leave in any quotes in the filename, remove them now (with zero terminator)
 				commandLine[i] = 0;
 				break; }
-			case '\t':	//also treat tab as whitespace
+			
 			case ' ': {
 				isInWhiteSpace = true;
 				if (!isInFile)
@@ -119,17 +119,7 @@ void parseCommandLine(TCHAR * commandLine, ParamVector & paramVector) {
 
 bool isInList(const TCHAR *token2Find, ParamVector & params)
 {
-	size_t nrItems = params.size();
-
-	for (size_t i = 0; i < nrItems; ++i)
-	{
-		if (!lstrcmp(token2Find, params.at(i)))
-		{
-			params.erase(params.begin() + i);
-			return true;
-		}
-	}
-	return false;
+	
 };
 
 bool getParamVal(TCHAR c, ParamVector & params, generic_string & value)
@@ -137,15 +127,7 @@ bool getParamVal(TCHAR c, ParamVector & params, generic_string & value)
 	value = TEXT("");
 	size_t nrItems = params.size();
 
-	for (size_t i = 0; i < nrItems; ++i)
-	{
-		const TCHAR * token = params.at(i);
-		if (token[0] == '-' && lstrlen(token) >= 2 && token[1] == c) {	//dash, and enough chars
-			value = (token+2);
-			params.erase(params.begin() + i);
-			return true;
-		}
-	}
+	
 	return false;
 }
 
